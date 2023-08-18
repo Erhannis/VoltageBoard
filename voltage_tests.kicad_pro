@@ -92,8 +92,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -172,7 +172,11 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.5,
+        0.8,
+        1.0,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -500,6 +504,78 @@
     [
       "fb706641-af0d-4687-b026-301a157ba5f3",
       "Splitter(3)2"
+    ],
+    [
+      "0f08047b-6083-41f1-8901-ccb50600e932",
+      "DC Boost 10v"
+    ],
+    [
+      "c6d9aefb-9ee8-4c85-a18d-07f4b94329d2",
+      "Negative LDO -11v"
+    ],
+    [
+      "7cdd2df5-332b-4860-ac66-fea4c590218c",
+      "Voltage Inverter"
+    ],
+    [
+      "276e8a0b-da46-49c7-9399-96414d4804e3",
+      "Voltage Inverter alt"
+    ],
+    [
+      "2938b08c-f992-4ad8-b761-354d9b9bd289",
+      "Negative LDO -10v"
+    ],
+    [
+      "201ab4ae-b835-4fcf-b591-c6b37cf9a2b1",
+      "DC Boost 8.5v"
+    ],
+    [
+      "265dbb06-e997-4966-86f1-6f431be39a2e",
+      "Splitter(3)3"
+    ],
+    [
+      "dd1cbdb9-fa81-46d6-b353-f331cffe58e6",
+      "Splitter(3)4"
+    ],
+    [
+      "489611f4-5e26-43ea-8de6-0ad07f1750c0",
+      "Splitter(3)5"
+    ],
+    [
+      "f268ef2f-4600-42bd-98c4-25375fce7e80",
+      "Splitter(3)6"
+    ],
+    [
+      "d9888c44-5347-4b85-a672-1190e8eddf89",
+      "Splitter(3)7"
+    ],
+    [
+      "68d7f6e2-e3bb-4d92-9faa-12186e9cd78b",
+      "Splitter(3)8"
+    ],
+    [
+      "f7f9bb9a-5fc6-41c1-b570-a342e1fb9c9b",
+      "Splitter(3)10"
+    ],
+    [
+      "91a20920-2238-4ea1-9640-382fe43e4ea1",
+      "Splitter(3)9"
+    ],
+    [
+      "9d850129-15f9-41bd-9980-a37f3b229fc8",
+      "Splitter(3)12"
+    ],
+    [
+      "be0a8d3d-e221-468b-b9e8-f401774a8ba6",
+      "Splitter(3)11"
+    ],
+    [
+      "6cbdc34b-829d-43f9-9ce3-a13d6a492f61",
+      "Splitter(3)14"
+    ],
+    [
+      "0da2b1f7-3cf2-49a0-834b-1f2366d3acc4",
+      "Splitter(3)13"
     ]
   ],
   "text_variables": {}

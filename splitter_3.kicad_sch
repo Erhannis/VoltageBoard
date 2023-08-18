@@ -108,7 +108,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 119.38 98.425 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9c6b335-a230-4daf-8f25-f6155a12fdd5)
-    (property "Reference" "J1_3S1" (at 120.65 97.155 0)
+    (property "Reference" "J1_3S8" (at 120.65 97.155 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x03_Pin" (at 120.65 99.695 0)
@@ -137,6 +137,9 @@
     (pin "3" (uuid 3ee0dfe9-9eb4-4891-84a4-88626b3a6965))
     (instances
       (project "voltage_tests"
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/d9888c44-5347-4b85-a672-1190e8eddf89"
+          (reference "J1_3S8") (unit 1)
+        )
         (path "/7c83e0de-b65e-4228-8a29-921a60940060/31b7e1d3-d5cd-42dd-b698-ec1664ab37ef"
           (reference "J1_3S1") (unit 1)
         )
@@ -145,6 +148,39 @@
         )
         (path "/7c83e0de-b65e-4228-8a29-921a60940060/fb706641-af0d-4687-b026-301a157ba5f3"
           (reference "J1_3S3") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/265dbb06-e997-4966-86f1-6f431be39a2e"
+          (reference "J1_3S4") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/dd1cbdb9-fa81-46d6-b353-f331cffe58e6"
+          (reference "J1_3S5") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/489611f4-5e26-43ea-8de6-0ad07f1750c0"
+          (reference "J1_3S6") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/f268ef2f-4600-42bd-98c4-25375fce7e80"
+          (reference "J1_3S7") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/68d7f6e2-e3bb-4d92-9faa-12186e9cd78b"
+          (reference "J1_3S9") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/91a20920-2238-4ea1-9640-382fe43e4ea1"
+          (reference "J1_3S11") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/f7f9bb9a-5fc6-41c1-b570-a342e1fb9c9b"
+          (reference "J1_3S10") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/be0a8d3d-e221-468b-b9e8-f401774a8ba6"
+          (reference "J1_3S13") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/9d850129-15f9-41bd-9980-a37f3b229fc8"
+          (reference "J1_3S12") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/0da2b1f7-3cf2-49a0-834b-1f2366d3acc4"
+          (reference "J1_3S15") (unit 1)
+        )
+        (path "/7c83e0de-b65e-4228-8a29-921a60940060/6cbdc34b-829d-43f9-9ce3-a13d6a492f61"
+          (reference "J1_3S14") (unit 1)
         )
       )
     )
