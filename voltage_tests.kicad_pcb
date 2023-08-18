@@ -6079,7 +6079,7 @@
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp f3e3f65a-d8f0-4e5d-a2e1-dd6c7bb8f27e))
   (gr_rect (start 113.284 35.306) (end 181.864 98.806)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 9b946349-d95f-44d3-9e8a-26b5770b5dd9))
-  (gr_text "https://github.com/Erhannis/VoltageBoard\na90cea15843464778e759deac2f22daa4634be98" (at 167.64 93.98) (layer "B.SilkS") (tstamp ec4dd8a8-941c-4928-a0f2-30108ac3f02f)
+  (gr_text "https://github.com/Erhannis/VoltageBoard\n6c9de5a7d8622f2bb3d618911d8991a0ae5ac5f5" (at 167.64 93.98) (layer "B.SilkS") (tstamp ec4dd8a8-941c-4928-a0f2-30108ac3f02f)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "INVERTER (3.5-10V)" (at 122.35336 56.203044) (layer "F.SilkS") (tstamp 01082e55-8ce1-414f-a5c7-9fcd7455af05)
